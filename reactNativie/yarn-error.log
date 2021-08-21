@@ -1,0 +1,32 @@
+Arguments: 
+  /usr/local/Cellar/node/13.3.0/bin/node /usr/local/bin/yarn add react-native --exact
+
+PATH: 
+  /Users/martin.song/.npm/_npx/28016/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
+
+Yarn version: 
+  1.21.0
+
+Node version: 
+  13.3.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: Client network socket disconnected before secure TLS connection was established
+      at connResetException (internal/errors.js:581:14)
+      at TLSSocket.onConnectEnd (_tls_wrap.js:1389:19)
+      at Object.onceWrapper (events.js:308:28)
+      at TLSSocket.emit (events.js:224:7)
+      at endReadableNT (_stream_readable.js:1206:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {"name":"reactNativie","version":"0.0.1","private":true,"scripts":{"start":"node node_modules/react-native/local-cli/cli.js start"}}
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
